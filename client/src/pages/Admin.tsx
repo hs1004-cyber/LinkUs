@@ -6,6 +6,7 @@ import { EmotionTag, type EmotionType } from "@/components/EmotionTag";
 import { Heart, MessageCircle, Trash2, ArrowLeft } from "lucide-react";
 import { useState } from "react";
 import { useLocation } from "wouter";
+const API_BASE = 'https://linkus-iieu.onrender.com';
 
 export default function Admin() {
   const [, setLocation] = useLocation();
